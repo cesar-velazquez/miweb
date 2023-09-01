@@ -10,7 +10,9 @@ export default {
       "urbanist": ['Urbanist', 'sans-serif']
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
   darkMode: 'class',
 }
 
