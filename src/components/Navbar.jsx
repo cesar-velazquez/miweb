@@ -17,12 +17,12 @@ const Navbar = ({MenuOpen}) => {
                 <ul id='about' className='flex gap-4'>
                     <li><a href="about">Acerca de mi</a></li>
                     <li><a href="#projects">Proyectos</a></li>                    
-                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#formation">Formación</a></li>
+                    <li><a href="#skills">Skills</a></li>                    
                 </ul>
             </div>
             {/* <div> */}
-            <i onClick={MenuOpen} className='sm:hidden bx bx-menu'></i>
+            <i onClick={MenuOpen} className='sm:hidden bx bx-menu cursor-pointer'></i>
             {/* </div> */}
             </div>
 

@@ -15,7 +15,7 @@ function App() {
   }
 
   return (    
-    <main className='font-urbanist bg-blue-100 min-h-screen'>      
+    <main className='font-urbanist bg-blue-200 min-h-screen'>      
       <Navbar MenuOpen={MenuOpen} />
       {
         isOpen && <OpenMenu MenuOpen={MenuOpen} />
