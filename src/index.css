@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    scroll-margin-top: 1rem;
+}

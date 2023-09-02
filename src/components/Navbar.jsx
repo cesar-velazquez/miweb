@@ -15,10 +15,10 @@ const Navbar = ({MenuOpen}) => {
 
             <div className='hidden sm:block'>
                 <ul id='about' className='flex gap-4'>
-                    <li>Acerca de mi</li>
-                    <li>Proyectos</li>
-                    <li>Skills</li>
-                    <li>Formación</li>
+                    <li><a href="about">Acerca de mi</a></li>
+                    <li><a href="#projects">Proyectos</a></li>                    
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#formation">Formación</a></li>
                 </ul>
             </div>
             {/* <div> */}
