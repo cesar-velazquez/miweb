@@ -2,62 +2,46 @@ import React from 'react'
 
 const Studies = () => {
     return (
-        <main id='formation' className='bg-yellow-100 sm:h-[80vh] sm:grid 
+        <main id='formation' className='bg-yellow-100 sm:grid 
         bg-[url(/imgs/fondo/bgmobilestudies.png)] bg-cover bg-no-repeat bg-center
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)]
-        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white'>
-            <hr className='bg-gray-500 h-[2px] mx-4  ' />
-            <h1 className='text-center text-2xl ' >Formación</h1>
+        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white transicion '>
+            <hr className='bg-gray-800 h-[2px] mx-8  ' />
+            <h1 className='text-center text-2xl sm:text-4xl font-extrabold' >Formación</h1>
+            <div className='grid gap-4 sm:grid-cols-2 pb-8'>
+                <div className='grid gap-4' >
+                    <h3 className='text-center p-4 '>Formación Académica</h3>
+                    <div className='grid justify-center' >
+                        <img className='m-auto w-[100px] aspect-square  rounded-3xl' src="/imgs/estudios/itsx.jpeg" alt="Itsx" />
+                        <p className='text-center ' >Instituto Tecnológico Superior de Xalapa</p>
+                    </div>
 
-            <div className='sm:grid sm:grid-cols-2 grid justify-center pb-8 px-16   ' >
+                    <div className='grid justify-center' >
+                        <img className='m-auto w-[100px] aspect-square rounded-3xl ' src="/imgs/estudios/alura.png" alt="Alura" />
+                        <p className='text-center ' >Bootcamp Alura</p>
+                    </div>
 
-                <div className='relative  h-[400px]' >
-                    <h1 className='font-urbanist text-center text-2xl mt-4 '>Formación Academica</h1>
-                    <div className='content-center absolute top-16 bg-red-600 w-[1px] h-[90%] left-[15%] sm:left-[50%] '>
-                        <div className='grid gap-8 rounded-3xl '>
-
-                            <div className=' flex justify-center pl-12 items-center gap-4 '>
-                                <i className='bx bxs-graduation bx-tada '></i>
-                                <h3 className=''>Instituto Tecnológico Superior de Xalapa</h3>
-                                <img className='w-[100px] aspect-square rounded-3xl' src="/imgs/estudios/itsx.jpeg" alt="Itsx" />
-                            </div>
-
-                            <div className=' flex justify-start items-center gap-4 '>
-                                <i className='bx bxs-graduation bx-tada '></i>
-                                <h3 className=''>Bootcamp Alura Latam</h3>
-                                <img className='w-[100px] aspect-square rounded-3xl' src="/imgs/estudios/alura.png" alt="Alura" />
-                            </div>
-                            <div className=' flex justify-start items-center gap-4 '>
-                                <i className='bx bxs-graduation bx-tada '></i>
-                                <h3 className=''>Bootcamp Academlo</h3>
-                                <img className='bg-white w-[100px] aspect-square rounded-3xl ' src="/imgs/estudios/academlo.png" alt="Academlo" />
-                            </div>
-                        </div>
+                    <div className='grid justify-center' >
+                        <img className='m-auto w-[100px] aspect-square rounded-3xl bg-white  ' src="/imgs/estudios/academlo.png" alt="Academlo" />
+                        <p className='text-center' >Bootcamp Academlo</p>
                     </div>
                 </div>
 
-                <div className='relative  h-[400px] p-4 my-4 ' >
-                    <h1 className='font-urbanist text-center text-2xl '>Curriculum</h1>
-                    <div className='content-center absolute top-12 bg-red-600 w-[1px] h-[80%] left-[15%] sm:left-[50%] '>
-                        <div className='grid gap-8 rounded-3xl '>
 
-                            <div className=' flex justify-center pl-12 items-center gap-4 '>
-                                <i className='bx bxs-graduation bx-tada '></i>
-                                <h3 className=''>Instituto Tecnológico Superior de Xalapa</h3>
-                                <img className='w-[100px] aspect-square rounded-3xl' src="/imgs/estudios/itsx.jpeg" alt="Itsx" />
-                            </div>
+                <div className='grid gap-4' >
+                    <h3 className='text-center p-4 '>Curriculum</h3>
+                    <div className='grid justify-center' >
+                        <img className='m-auto w-[100px] aspect-square rounded-3xl ' src="/imgs/estudios/ux.jpeg" alt="Ux" />
+                        <p className='text-center ' >Becario en Universidad de Xalapa en el
+                            área de Coordinación de Tecnologías
+                            de la Información.</p>
+                    </div>
 
-                            <div className=' flex justify-start items-center gap-4 '>
-                                <i className='bx bxs-graduation bx-tada '></i>
-                                <h3 className=''>Bootcamp Alura Latam</h3>
-                                <img className='w-[100px] aspect-square rounded-3xl' src="/imgs/estudios/alura.png" alt="Alura" />
-                            </div>
-                            <div className=' flex justify-start items-center gap-4 '>
-                                <i className='bx bxs-graduation bx-tada '></i>
-                                <h3 className=''>Bootcamp Academlo</h3>
-                                <img className='bg-white w-[100px] aspect-square rounded-3xl ' src="/imgs/estudios/academlo.png" alt="Academlo" />
-                            </div>
-                        </div>
+                    <div className='grid justify-center' >
+                        <img className='m-auto w-[100px] aspect-square rounded-3xl ' src="/imgs/estudios/ux.jpeg" alt="Ux" />
+                        <p className='text-center ' >Soporte técnico en el área de
+                            Coordinación de Tecnologías de la
+                            Información.</p>
                     </div>
                 </div>
             </div>

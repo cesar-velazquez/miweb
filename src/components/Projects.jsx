@@ -7,10 +7,10 @@ const Projects = () => {
             id='projects'
             className='bg-yellow-100 bg-[url(/imgs/fondo/GradientSmall.png)] bg-center bg-cover bg-no-repeat
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)]  sm:grid 
-        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white'>
+        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white transicion'>
 
-            <hr className='bg-gray-500 h-[2px] mx-4 ' />
-            <h1 className='text-2xl font-urbanist text-center '>Proyectos</h1>
+            <hr className='bg-gray-500 h-[2px] mx-8 ' />
+            <h1 className='text-2xl font-urbanist text-center sm:text-4xl font-extrabold my-4 '>Proyectos</h1>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-12 m-auto max-w-[1200px]'>
 
                 <div className='relative  w-[250px] h-[200px] flex m-auto py-4'>
@@ -91,7 +91,7 @@ const Projects = () => {
                         <h3 className=' text-center font-urbanist p-2'>Challenge de Frontend Mentor</h3>
                         <div className='flex justify-center items-center gap-3' >
                             <i className='bx bxl-html5 text-[20px] '></i>
-                            <i class='bx bxl-tailwind-css'></i>
+                            <i className='bx bxl-tailwind-css'></i>
                             <i className='bx bxl-react'></i>
                         </div>
                         <div className='flex gap-4 justify-center py-4'>

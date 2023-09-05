@@ -5,10 +5,10 @@ const Skills = () => {
         <main 
         className='bg-yellow-100 bg-[url(/imgs/fondo/GradientSmall.png)] bg-center bg-cover bg-no-repeat
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)] sm:h-[100vh] sm:grid 
-        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white'
+        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white transicion '
         id='skills'>
-            <hr className='bg-gray-500 h-[2px] mx-4 ' />
-            <h1 className='font-urbanist text-2xl px-2 py-4 text-center' >Mis <span className='underline' >Habilidades</span></h1>
+            <hr className='bg-gray-800 h-[2px] mx-8 ' />
+            <h1 className='font-urbanist text-2xl px-2 py-4 text-center sm:text-4xl font-extrabold' >Mis <span className='underline' >Habilidades</span></h1>
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 m-auto max-w-[1200px]'>
                 
                 <div className='w-[300px] p-4 m-auto'>
