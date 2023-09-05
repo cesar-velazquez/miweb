@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Studies from './components/Studies'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -16,7 +17,7 @@ function App() {
   }
 
   return (    
-    <main className='font-urbanist'>      
+    <main className='font-urbanist bg-yellow-100'>      
       <Navbar MenuOpen={MenuOpen} />
       {
         isOpen && <OpenMenu MenuOpen={MenuOpen} />
@@ -30,6 +31,8 @@ function App() {
       <Projects/>
 
       <Contact/>
+
+      <Footer/>
     </main>
   )
 }

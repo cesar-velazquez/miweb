@@ -3,7 +3,7 @@ function OpenMenu({ MenuOpen }) {
 
     return (
         <div onClick={MenuOpen}
-            className={`flex flex-col text-center items-center bg-blue-500/60
+            className={`flex flex-col text-center items-center bg-yellow-100 bg-[url(/imgs/fondo/bgmobile.png)] bg-left bg-cover bg-no-repeat 
             text-black font-urbanist sm:invisible      
             ${MenuOpen ? 'opacity-100 duration-1000 delay-1000 animate-fade ' : 'opacity-0 '}
             `}>
