@@ -2,8 +2,12 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <main id='skills'>
-            <hr className='bg-gray-500 h-[2px] mx-4 my-4 ' />
+        <main 
+        className='bg-yellow-100 bg-[url(/imgs/fondo/GradientSmall.png)] bg-center bg-cover bg-no-repeat
+        sm:bg-[url(/imgs/fondo/EllipseMiddle.png)] sm:h-[100vh] sm:grid 
+        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white'
+        id='skills'>
+            <hr className='bg-gray-500 h-[2px] mx-4 ' />
             <h1 className='font-urbanist text-2xl px-2 py-4 text-center' >Mis <span className='underline' >Habilidades</span></h1>
             <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 m-auto max-w-[1200px]'>
                 

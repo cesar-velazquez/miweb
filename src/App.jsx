@@ -6,6 +6,7 @@ import { useState } from 'react'
 import Skills from './components/Skills'
 import Studies from './components/Studies'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -15,7 +16,7 @@ function App() {
   }
 
   return (    
-    <main className='font-urbanist bg-blue-200 min-h-screen'>      
+    <main className='font-urbanist'>      
       <Navbar MenuOpen={MenuOpen} />
       {
         isOpen && <OpenMenu MenuOpen={MenuOpen} />
@@ -27,6 +28,8 @@ function App() {
       <Studies/>
       
       <Projects/>
+
+      <Contact/>
     </main>
   )
 }
