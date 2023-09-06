@@ -15,7 +15,7 @@ const Contact = () => {
             .then((result) => {
                 // console.log(result.text);
                 form.current.reset();
-                setIsShowModal(true); 
+                setIsShowModal(true);
             })
             .catch((error) => {
                 console.log(error.text);
@@ -110,7 +110,6 @@ const Contact = () => {
             {isShowModal && (
                 <ModalSuccess closeModal={closeModal} />
             )}
-           
         </section>
     )
 }
