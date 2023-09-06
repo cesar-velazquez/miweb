@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <main
             id='projects'
-            className='bg-yellow-100 bg-[url(/imgs/fondo/GradientSmall.png)] bg-center bg-cover bg-no-repeat
+            className='bg-yellow-100 bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-center bg-cover bg-no-repeat
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)]  sm:grid 
         dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white transicion'>
 

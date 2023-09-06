@@ -34,7 +34,7 @@ const Contact = () => {
     return (
         <section
             id='contact'
-            className='bg-yellow-100 bg-[url(/imgs/fondo/GradientSmall.png)] bg-center bg-cover bg-no-repeat
+            className='bg-yellow-100 bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-center bg-cover bg-no-repeat
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)] 
         dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg text-black dark:text-white  pb-16 transicion' >
 

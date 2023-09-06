@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     // bg-[url(/imgs/fondo/RuedaLeft.jpg)] bg-left
-    <main className='bg-yellow-100 bg-[url(/imgs/fondo/bgmobile.png)] bg-center bg-no-repeat bg-cover
+    <main className='bg-yellow-100 bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-left bg-no-repeat bg-cover
     dark:bg-[url(/imgs/fondo/bgdesktop.png)] dark:bg-purple-bg dark:text-white transicion
     sm:bg-[url(/imgs/fondo/EllipseMiddle.png)] sm:bg-right  md:h-[100vh] sm:flex ' >
 

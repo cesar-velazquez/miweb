@@ -3,7 +3,7 @@ import React from 'react'
 const Studies = () => {
     return (
         <main id='formation' className='bg-yellow-100 sm:grid 
-        bg-[url(/imgs/fondo/bgmobilestudies.png)] bg-cover bg-no-repeat bg-center
+        bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-cover bg-no-repeat bg-center
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)]
         dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white transicion '>
             <hr className='bg-gray-800 h-[2px] mx-8  ' />
