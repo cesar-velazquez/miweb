@@ -8,6 +8,7 @@ function OpenMenu({ MenuOpen }) {
             text-black font-urbanist sm:invisible 
             mt-16 fixed w-full z-10    
             ${MenuOpen ? 'opacity-100 duration-1000 delay-1000 animate-fade ' : 'opacity-0 '}
+            dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg text-black dark:text-white
             `}>
             <ul id='about' className='cursor-pointer   gap-4'>
                 <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#contact">Contáctame</a></li>
