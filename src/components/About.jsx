@@ -5,7 +5,8 @@ const About = () => {
     // bg-[url(/imgs/fondo/RuedaLeft.jpg)] bg-left
     <main className='bg-yellow-100 bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-left bg-no-repeat bg-cover
     dark:bg-[url(/imgs/fondo/bgdesktop.png)] dark:bg-purple-bg dark:text-white transicion
-    sm:bg-[url(/imgs/fondo/EllipseMiddle.png)] sm:bg-right  md:h-[100vh] sm:flex ' >
+    sm:bg-[url(/imgs/fondo/EllipseMiddle.png)] sm:bg-right  md:h-[100vh] sm:flex
+    xl:max-w-[1200px] mx-auto ' >
 
       <div className='flex flex-col gap-4 md:grid md:grid-cols-2 md:px-4   max-w-[1200px] m-auto '>
         <div id='about' className='pt-[5rem] pb-4 sm:pt-[5rem] w-[100%] flex justify-center'>

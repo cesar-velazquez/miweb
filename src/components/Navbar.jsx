@@ -22,7 +22,7 @@ const Navbar = ({MenuOpen, handleChangeMode, isdarkMode}) => {
                 </ul>
             </div>
             {/* bg-blue-500 translate-x-1/2  */}
-            <div className='hidden sm:block sm:text-xl '>
+            <div className='hidden sm:block sm:text-xl  '>
                 <ul id='about' className='flex gap-4'>
                     <li><a href="#contact">Contáctame</a></li>
                     <li><a href="#projects">Proyectos</a></li>                    

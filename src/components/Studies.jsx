@@ -2,10 +2,15 @@ import React from 'react'
 
 const Studies = () => {
     return (
-        <main id='formation' className='bg-yellow-100 sm:grid 
+        <main 
+        id='formation' 
+        className='
+        pt-12
+        bg-yellow-100 sm:grid 
         bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-cover bg-no-repeat bg-center
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)]
-        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white transicion '>
+        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg dark:text-white transicion
+        xl:max-w-[1200px] mx-auto '>
             <hr className='bg-gray-800 h-[2px] mx-8  ' />
             <h1 className='text-center text-2xl sm:text-4xl font-extrabold' >Formación</h1>
             <div className='grid gap-4 sm:grid-cols-2 pb-8'>

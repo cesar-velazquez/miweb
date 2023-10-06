@@ -1,0 +1,191 @@
+[
+    {
+        "image": "/imgs/projects/frontmentor1.PNG",
+        "alt": "Image 1",
+        "title": "Primer Challenge de la plataforma de Frontend Mentor",
+        "technology": [
+            "html5",
+            "css3"
+        ],
+        "siteLink": "https://challengfrontendmentor.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/frontendmentor1"
+    },
+    {
+        "image": "/imgs/projects/front2.PNG",
+        "alt": "Image 2",
+        "title": "Segundo Challenge de la plataforma de Frontend Mentor",
+        "technology": [
+            "html5",
+            "css3"
+        ],
+        "siteLink": "https://challengfrontendmentor2.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/frontendmentor2"
+    },
+    {
+        "image": "/imgs/projects/FrontMentor3.PNG",
+        "alt": "Image 3",
+        "title": "Tercer Challenge de la plataforma de Frontend Mentor",
+        "technology": [
+            "html5",
+            "css3"
+        ],
+        "siteLink": "https://frontmentor3.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/FrontMentor3"
+    },
+    {
+        "image": "/imgs/projects/ecommerce.PNG",
+        "alt": "ecommerce",
+        "title": "Ecommerce, realizado con Html, Css y Javascript",
+        "technology": [
+            "html5",
+            "css3",
+            "js"
+        ],
+        "siteLink": "https://ecommerceacadem.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/Ecommerce"
+    },
+    {
+        "image": "/imgs/projects/restandcountries.PNG",
+        "alt": "Image 4",
+        "title": "Cuarto Challenge de la plataforma de Frontend Mentor",
+        "technology": [
+            "html5",
+            "tailwind",
+            "react"
+        ],
+        "siteLink": "https://restcountryfrontmentor4.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/Rest-Country-FrontMentor4"
+    },
+    {
+        "image": "/imgs/projects/fm5.PNG",
+        "alt": "Image FM5",
+        "title": "Newsletter sign-up form with success message",
+        "technology": [
+            "react",
+            "tailwind",
+            "js"
+        ],
+        "siteLink": "https://fm5login.netlify.app/login",
+        "codeLink": "https://github.com/cesar-velazquez/FMentor5/"
+    },
+    {
+        "image": "/imgs/projects/fm6.PNG",
+        "alt": "Image 6",
+        "title": "Interactive card details form",
+        "technology": [
+            "react",
+            "js",
+            "tailwind"
+        ],
+        "siteLink": "https://fm6carddetail.netlify.app/login",
+        "codeLink": "https://github.com/cesar-velazquez/FM5-Card-Detail"
+    },
+    {
+        "image": "/imgs/projects/fm7.PNG",
+        "alt": "Image 7",
+        "title": "Dictionary Web",
+        "technology": [
+            "react",
+            "tailwind",
+            "js"
+        ],
+        "siteLink": "https://fm7-dicctionary.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/fm7DictionarityWeb"
+    },
+    {
+        "image": "/imgs/projects/fm8.PNG",
+        "alt": "Image 8",
+        "title": "Intro section with dropdown navigation",
+        "technology": [
+            "react",
+            "js",
+            "tailwind"
+        ],
+        "siteLink": "https://fm8introsection.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/fm8IntroSection"
+    },
+    {
+        "image": "/imgs/projects/fm9.PNG",
+        "alt": "Image 9",
+        "title": "Fylo dark theme landing page",
+        "technology": [
+            "react",
+            "js",
+            "tailwind"
+        ],
+        "siteLink": "https://fm9landingpage.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/fm9LandingPage"
+    },
+    {
+        "image": "/imgs/projects/fm10.PNG",
+        "alt": "Image 10",
+        "title": "Anime Search",
+        "technology": [
+            "react",
+            "tailwind",
+            "js"
+        ],
+        "siteLink": "https://animesear.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/searchanime"
+    },
+    {
+        "image": "/imgs/projects/phrases.PNG",
+        "alt": "Image Phrases",
+        "title": "Frases Aleatorias",
+        "technology": [
+            "js",
+            "tailwind",
+            "react"
+        ],
+        "siteLink": "https://phrasesversion2.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/PhrasesVersion2"
+    },
+    {
+        "image": "/imgs/projects/weather.PNG",
+        "alt": "Image Weather",
+        "title": "Aplicación del Clima",
+        "technology": [
+            "js",
+            "react",
+            "tailwind"
+        ],
+        "siteLink": "https://weatheracad.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/weather"
+    },
+    {
+        "image": "/imgs/projects/rickandmorty.PNG",
+        "alt": "Image Rick and Morty",
+        "title": "Consumiendo la Api de Rick and Morty",
+        "technology": [
+            "react",
+            "tailwind",
+            "js"
+        ],
+        "siteLink": "https://acadrickandmorty.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/RickandMorty"
+    },
+    {
+        "image": "/imgs/projects/crud.PNG",
+        "alt": "Image Crud",
+        "title": "Crud",
+        "technology": [
+            "react",
+            "tailwind",
+            "js"
+        ],
+        "siteLink": "https://acadcrud.netlify.app/",
+        "codeLink": "https://github.com/cesar-velazquez/crud"
+    },
+    {
+        "image": "/imgs/projects/pokedex.PNG",
+        "alt": "Image Pokedex",
+        "title": "Api de pokemon",
+        "technology": [
+            "js",
+            "tailwind",
+            "react"
+        ],
+        "siteLink": "https://acadpokedex.netlify.app/pokedex",
+        "codeLink": "https://github.com/cesar-velazquez/Pokedex"
+    }
+]

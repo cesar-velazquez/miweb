@@ -38,8 +38,8 @@ useEffect (() =>{
       {isloading ? (
         <Loader />
       ) : (
-        <main className='font-urbanist bg-yellow-100
-        dark:bg-purple-bg dark:text-white '>      
+        <main className='font-urbanist bg-yellow-100 
+        dark:bg-purple-bg dark:text-white  '>      
           <Navbar isdarkMode={isdarkMode} handleChangeMode={handleChangeMode} MenuOpen={MenuOpen} />
           {
             isOpen && <OpenMenu MenuOpen={MenuOpen} />

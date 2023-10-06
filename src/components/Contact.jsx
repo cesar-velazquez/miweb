@@ -34,9 +34,12 @@ const Contact = () => {
     return (
         <section
             id='contact'
-            className='bg-yellow-100 bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-center bg-cover bg-no-repeat
+            className='
+            pt-12
+            bg-yellow-100 bg-[url(/imgs/fondo/EllipseMiddle.png)] bg-center bg-cover bg-no-repeat
         sm:bg-[url(/imgs/fondo/EllipseMiddle.png)] 
-        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg text-black dark:text-white  pb-16 transicion' >
+        dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg text-black dark:text-white  pb-16 transicion
+        xl:max-w-[1200px] mx-auto' >
 
             <hr className='bg-gray-500 h-[2px] mx-4' />
             <h2 className='text-center text-2xl p-4 sm:text-4xl font-bold'>Contáctame</h2>
