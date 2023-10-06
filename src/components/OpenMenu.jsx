@@ -1,3 +1,4 @@
+import { t } from "i18next"
 
 function OpenMenu({ MenuOpen }) {
 
@@ -11,10 +12,10 @@ function OpenMenu({ MenuOpen }) {
             dark:bg-[url(/imgs/fondo/bgmobile.png)] dark:bg-purple-bg text-black dark:text-white
             `}>
             <ul id='about' className='cursor-pointer   gap-4'>
-                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#contact">Contáctame</a></li>
-                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#formation">Formación</a></li>
-                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#projects">Proyectos</a></li>                                
-                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#skills">Skills</a></li>
+                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#contact">{t('Contact')}</a></li>
+                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#formation">{t('formation')}</a></li>
+                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#projects">{t('Projects')}</a></li>                                
+                <li className="hover:bg-white hover:text-black rounded-3xl p-1" ><a href="#skills">{t('Skills')}</a></li>
             </ul>
         </div>
     )

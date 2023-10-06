@@ -4,6 +4,7 @@ import emailjs, { sendForm } from '@emailjs/browser';
 import ModalSuccess from './ModalContact/ModalSuccess';
 import { useForm } from 'react-hook-form';
 import ModalError from './ModalContact/ModalError';
+import { t } from 'i18next';
 
 const Contact = () => {
     const { handleSubmit, register, formState: { errors } } = useForm();
@@ -42,13 +43,13 @@ const Contact = () => {
         xl:max-w-[1200px] mx-auto' >
 
             <hr className='bg-gray-500 h-[2px] mx-4' />
-            <h2 className='text-center text-2xl p-4 sm:text-4xl font-bold'>Contáctame</h2>
+            <h2 className='text-center text-2xl p-4 sm:text-4xl font-bold'>{t('Contact')}</h2>
             <form action=""
                 ref={form}
                 onSubmit={handleSubmit(onSubmit)}
                 className='font-semibold p-4 mx-6 flex flex-col gap-1 shadow-lg shadow-black max-w-[600px] sm:m-auto '>
 
-                <label htmlFor="name" className='text-left mx-3 mt-2' >Nombre</label>
+                <label htmlFor="name" className='text-left mx-3 mt-2' >{t('nameUser')}</label>
                 <input type="text" id='name' placeholder='Nombre...'
                     className='mx-3 outline-none rounded-3xl text-center dark:bg-black/30 bg-yellow-100/60'
                     name="user_name"
@@ -73,7 +74,7 @@ const Contact = () => {
                     } />
                 {errors.name && <p className='text-red-700 text-center m-auto font-semibold rounded-3xl w-[200px] bg-white/40'>{errors.name.message}</p>}
 
-                <label htmlFor="email" className='text-left mx-3 mt-2'>E-mail</label>
+                <label htmlFor="email" className='text-left mx-3 mt-2'>{t('email')}</label>
                 <input type="email" required id='email' placeholder='Email...'
                     className='mx-3 outline-none rounded-3xl text-center dark:bg-black/30 bg-yellow-100/60'
                     name="user_email"
@@ -89,7 +90,7 @@ const Contact = () => {
                     })
                     } />
                 {errors.email && <p className='text-red-700 text-center m-auto font-semibold rounded-3xl w-[200px] bg-white/40'>{errors.email.message}</p>}
-                <label htmlFor="message" className='text-left mx-3 mt-2'>Mensaje</label>
+                <label htmlFor="message" className='text-left mx-3 mt-2'>{t('message')}</label>
                 <textarea type="text" id='message' placeholder='Mensaje...'
                     className='mx-3 outline-none rounded-3xl text-center dark:bg-black/30 bg-yellow-100/60'
                     name="message"
@@ -107,7 +108,7 @@ const Contact = () => {
                     } />
                 {errors.message && <p className='text-red-700 text-center m-auto font-semibold rounded-3xl w-[200px] bg-white/40'>{errors.message.message}</p>}
 
-                <input className='bg-blue-600 w-[100px] my-4 m-auto rounded-3xl cursor-pointer text-white font-bold hover:bg-white hover:text-blue-700 dark:bg-purple-700 dark:hover:bg-black dark:hover:text-white ' type="submit" value={"Enviar"} />
+                <input className='bg-blue-600 w-[100px] my-4 m-auto rounded-3xl cursor-pointer text-white font-bold hover:bg-white hover:text-blue-700 dark:bg-purple-700 dark:hover:bg-black dark:hover:text-white ' type="submit" value={t('send')} />
 
             </form>
             {isShowModal && (

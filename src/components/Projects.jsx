@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ProjectData from '../Data/Projects.json'
 import 'animate.css';
+import { t } from 'i18next';
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
@@ -20,7 +21,7 @@ const Projects = () => {
     xl:max-w-[1200px] mx-auto'>
 
             <hr className='bg-gray-500 h-[2px] mx-8 ' />
-            <h1 className='text-2xl font-urbanist text-center sm:text-4xl font-extrabold my-4 '>Proyectos</h1>
+            <h1 className='text-2xl font-urbanist text-center sm:text-4xl font-extrabold my-4 '>{t('Projects')}</h1>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-12 m-auto max-w-[1200px] pb-16'>
                 {
                     projects.map((project, index) => (

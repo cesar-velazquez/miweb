@@ -1,3 +1,4 @@
+import { t } from 'i18next'
 import React from 'react'
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
                     <li><a href="https://www.linkedin.com/in/c%C3%A9sar-velazquez-722a9121b/" target="_blank"><i className='bx bxl-linkedin-square'></i></a></li>                    
                 </ul>
             </div>
-            <p className="text-center  "> © Copyright 2023 Realizado por <a href="#"><b>César
+            <p className="text-center  "> © {t('copyright')} <a href="#"><b>César
                 Velazquez</b></a> </p>
         </footer>
     )

@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { t } from 'i18next';
 
 const Skills = () => {
     return (
@@ -25,8 +26,8 @@ const Skills = () => {
             <hr className='bg-gray-500 h-[2px] mx-4' />
             <h1
                 className='font-urbanist text-2xl px-2 py-4 
-            text-center sm:text-4xl font-extrabold' >Mis <span
-                    className='underline' >Habilidades</span></h1>
+            text-center sm:text-4xl font-extrabold' >{t('my')} <span
+                    className='underline' >{t('skills')}</span></h1>
 
             <Swiper
                 spaceBetween={30}

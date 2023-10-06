@@ -14,6 +14,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false)
   const [isdarkMode, setIsdarkMode] = useState(localStorage.getItem('theme') === 'dark')
   const [isloading, setIsloading] = useState(true)
+  const [currentLanguage, setCurrentLanguage] = useState('es')
 
   const MenuOpen = () => {
     setIsOpen(!isOpen)
@@ -39,8 +40,13 @@ useEffect (() =>{
         <Loader />
       ) : (
         <main className='font-urbanist bg-yellow-100 
-        dark:bg-purple-bg dark:text-white  '>      
-          <Navbar isdarkMode={isdarkMode} handleChangeMode={handleChangeMode} MenuOpen={MenuOpen} />
+        dark:bg-purple-bg dark:text-white  '>           
+          <Navbar  
+          setCurrentLanguage={setCurrentLanguage}
+          currentLanguage={currentLanguage}
+          isdarkMode={isdarkMode} 
+          handleChangeMode={handleChangeMode} 
+          MenuOpen={MenuOpen} />
           {
             isOpen && <OpenMenu MenuOpen={MenuOpen} />
           }   
